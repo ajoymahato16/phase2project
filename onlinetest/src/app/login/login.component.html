@@ -2,18 +2,27 @@
     <div class="bg-white border rounded-5">
       
       <section class="w-100 p-4 d-flex justify-content-center pb-4">
-        <form style="width: 22rem;">
+        <form [formGroup]="loginform" style="width: 22rem;">
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" id="form2Example1" class="form-control">
-            <label class="form-label" for="form2Example1" style="margin-left: 0px;">Email address</label>
-          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
-  
+            <input type="email" id="form2Example1" formControlName="userid" class="form-control" >
+            <label class="form-label" [class.changed]="loginform.value.userid" for="form2Example1" style="margin-left: 0px;">Email address</label>
+            <div class="form-notch">
+              <div class="form-notch-leading" style="width: 9px;"></div>
+              <div class="form-notch-middle" style="width: 88.8px;"></div>
+              <div class="form-notch-trailing"></div></div>
+            </div>
+
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="form2Example2" class="form-control">
-            <label class="form-label" for="form2Example2" style="margin-left: 0px;">Password</label>
-          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64.8px;"></div><div class="form-notch-trailing"></div></div></div>
+            <input type="password" formControlName="userpass" id="form2Example2" class="form-control">
+            <label class="form-label" [class.changed]="loginform.value.userpass" for="form2Example2" style="margin-left: 0px;">Password</label>
+            <div class="form-notch">
+              <div class="form-notch-leading" style="width: 9px;"></div>
+              <div class="form-notch-middle" style="width: 64.8px;"></div>
+              <div class="form-notch-trailing"></div>
+            </div>
+          </div>
   
           <!-- 2 column grid layout for inline styling -->
           <div class="row mb-4">
@@ -32,7 +41,7 @@
           </div>
   
           <!-- Submit button -->
-          <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          <button type="button" (click)="onSubmit()" class="btn btn-primary btn-block mb-4">Sign in</button>
   
           <!-- Register buttons -->
           <div class="text-center">

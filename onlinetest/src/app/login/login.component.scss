@@ -45,7 +45,7 @@
    
 }
 
-.form-outline .form-control.active~.form-label,
+.form-outline .form-control ~ .form-label.changed,
  .form-outline .form-control:focus~.form-label {
     transform: translateY(-1rem) translateY(0.1rem) scale(.8);
     background-color: #fff;
@@ -62,4 +62,17 @@
 .form-outline .form-control.error:focus
 {
     border-color: red;
+}
+.submitbtn
+{
+    input, .button
+    {
+        padding: 10px 8px;
+        margin: 0px auto;
+        background-color: orangered;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        list-style: 22px;
+    }
 }

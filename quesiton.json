@@ -1,0 +1,105 @@
+[
+	{
+        "qes": "Khadi and Village Industries Commission inaugurated the ReHab project in which city?",
+        "options": {
+                "A": "Nainital",
+                "B": "Pune",
+                "C": "Delhi",
+                "D": "Jaipur"
+            },
+        "ans": "Nainital"
+	},
+    {
+        "qes": "Which city became the first city in South Asia to top CDP's climate action list?",
+        "options": {
+                "A": "Pune",
+                "B": "Delhi",
+                "C": "Mumbai",
+                "D": "Surat"
+            },
+        "ans": "Mumbai"
+	}
+    ,
+    {
+        "qes": "Which animal has been accepted as a food animal by FSSAI recently?",
+        "options": {
+                "A": "Blue Sheep",
+                "B": "Musk Deer",
+                "C": "Himalayan Yak",
+                "D": "Pronghorn"
+            },
+        "ans": "Himalayan Yak"
+	},
+    {
+        "qes": "Who is the present Foreign Secretary of India?",
+        "options": {
+                "A": "Vijay Keshav Gokhale",
+                "B": "Subhra",
+                "C": "Vinay Mohan Kwatra",
+                "D": "Harsh Vardhan Shringla"
+            },
+        "ans": "Vinay Mohan Kwatra"
+	},
+    {
+        "qes": "Which city to host the G20 Finance Ministers meeting on February 20?",
+        "options": {
+                "A": "Delhi",
+                "B": "Hyderabad",
+                "C": "Jaipur",
+                "D": "Bengaluru"
+            },
+        "ans": "Bengaluru"
+	},
+    {
+        "qes": "Which city is to host the first G20 Sherpa Meeting in India from 04 to 07 December?",
+        "options": {
+                "A": "Udaipur",
+                "B": "Varanasi",
+                "C": "Srinagar",
+                "D": "Thane"
+            },
+        "ans": "Udaipur"
+	},
+    {
+        "qes": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya Museum Project in which city won the Award of Excellence at the 2022 UNESCO Asia-Pacific Awards for Cultural Heritage Conservation?",
+        "options": {
+                "A": "Jaipur",
+                "B": "Mumbai",
+                "C": "Delhi",
+                "D": "Pune"
+            },
+        "ans": "Mumbai"
+	},
+    {
+        "qes": "In which city Union Minister of AYUSH has inaugurated the North East's 1st Regional Research Institute of Unani Medicine?",
+        "options": {
+                "A": "Silchar",
+                "B": "Imphal",
+                "C": "Dimapur",
+                "D": "Changlang"
+            },
+        "ans": "Silchar"
+	},
+    {
+        "qes": "National Milk Day' is observed to commemorate the birth anniversary of which personality?",
+        "options": {
+                "A": "M S Swaminathan",
+                "B": "Charan Singh",
+                "C": "Dr. Verghese Kurien",
+                "D": "Morarji Desai"
+            },
+        "ans": "Dr. Verghese Kurien"
+	},
+    {
+        "qes": "National Gopal Ratna Awards are associated with which Union Ministry?",
+        "options": {
+                "A": "Ministry of Fisheries, Animal Husbandry and Dairying",
+                "B": "Ministry of Chemicals and Fertilisers",
+                "C": "Ministry of Agriculture & Farmers Welfare",
+                "D": "Ministry of Rural Development"
+            },
+        "ans": "Ministry of Fisheries, Animal Husbandry and Dairying"
+	}
+]
+
+//https://mocki.io/v1/d5beba1b-0a85-4987-a6fc-84e935c64f68

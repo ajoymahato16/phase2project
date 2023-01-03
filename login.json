@@ -1,0 +1,45 @@
+[
+	{
+        "user": "ajoymahato16@gmail.com",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "ajoymahato16@gmail.com",
+        "pass": "admin@1234"
+	}
+    ,
+    {
+        "user": "ajoymahato16@gmail.com",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "ajoymahato16",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "adminUser",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "admin_test",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "testuser",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "test_user",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "root",
+        "pass": "admin@1234"
+	},
+    {
+        "user": "system",
+        "pass": "admin@1234"
+	}
+]
+
+//https://mocki.io/v1/444df9a5-fca5-4c5f-bb99-9817f1370523
